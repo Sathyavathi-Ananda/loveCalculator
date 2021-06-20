@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,body{height:100%;
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.5)), 0% 0% / cover, url('../background.jpg') center center no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+body{margin:0;font-family:Roboto, "Helvetica Neue", sans-serif;}
+form{width:300px;display:block;float:none;}
+.mat-form-field{width:100%;}
+.title-center{margin:0 auto;}
+.button-wrapper{margin-top:10px;}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
